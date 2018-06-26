@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^accounts/',include('icyWater.urls')),
+    url(r'^icywat/',include('icyWater.urls')),
 ]
