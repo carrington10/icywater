@@ -1,13 +1,25 @@
 body {
 
-  background: gray;
+  background-image:url("/static/pics/backwater.png");
+  height: 650px;
+     padding: 100px 0 0 0;
+     color:white;
 }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
+  color:white;
 }
+
+.navbar-default {
+  background-color:transparent;
+border-color: transparent;
+font-size:30px;
+font:bold;
+
+ }
 
 .navbar .navbar-collapse {
   text-align: center;
