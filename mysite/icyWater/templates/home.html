@@ -4,33 +4,17 @@
 
 {% block body %}
 
-<body>
 
-<div class="container gallery-container">
+<h2>Local Audio Stream</h2>
+{% for file in songs %}
+<li>
+<h4>{{ file.title }}</h4>
+<div id="play"><audio src="{{ file.music.url }}" controls="controls">
+  Your browser does not support the audio element.
+</audio></div>
+</li>
 
-    <h1>Bootstrap 3 Gallery</h1>
-
-    <p class="page-description text-center">Grid Layout With Zoom Effect</p>
-
-    <div class="tz-gallery">
-
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-
-                
-            </div>
-
-
-    </div>
-
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
-</body>
-</html>
+{% endfor %}
 
 
 
