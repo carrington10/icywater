@@ -1,29 +1,44 @@
+
+
 body {
 
   background-image:url("/static/pics/backwater.png");
   height: 650px;
      padding: 100px 0 0 0;
      color:white;
+     font-family: 'Eater', cursive
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  color:white;
+.about{
+   font-size: 40px;
+}
+
+/* Right column */
+.rightcolumn {
+  margin: auto;
+     width: 90%;
+     border: 3px solid transparent;
+     line-height: 40px; 
+     padding: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+      color: #efeae1;
 }
 
 .navbar-default {
-  background-color:transparent;
+  background-color:#574c4f;
+
 border-color: transparent;
 font-size:30px;
 font:bold;
-
+ border: 0;
  }
 
 .navbar .navbar-collapse {
   text-align: center;
 }
+
 
 
 .container.gallery-container {
@@ -84,3 +99,6 @@ font:bold;
         border-radius: 0;
     }
 }
+
+
+/////
